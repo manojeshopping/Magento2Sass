@@ -1,0 +1,23 @@
+{
+  "name": "theextensionlab/magento2-sass-preprocessor",
+  "description": "Add Sass preprocessor to magento2",
+  "type": "magento2-module",
+  "authors": [
+    {
+      "name": "TheExtensionLab",
+      "email": "james@theextensionlab.com",
+      "homepage": "http://theextensionlab.com"
+    }
+  ],
+  "require" : {
+    "leafo/scssphp": "~0.5.1"
+  },
+  "extra": {
+    "map": [
+      [
+        "*",
+        "TheExtensionLab/SassPreprocessor"
+      ]
+    ]
+  }
+}
